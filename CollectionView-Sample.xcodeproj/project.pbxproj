@@ -15,6 +15,8 @@
 		A45679042644F5D000870394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45679022644F5D000870394 /* LaunchScreen.storyboard */; };
 		A456790F2644F5D100870394 /* CollectionView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A456790E2644F5D100870394 /* CollectionView_SampleTests.swift */; };
 		A456791A2644F5D100870394 /* CollectionView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45679192644F5D100870394 /* CollectionView_SampleUITests.swift */; };
+		A456792C26451A1900870394 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A456792A26451A1900870394 /* CollectionViewCell.swift */; };
+		A456792D26451A1900870394 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A456792B26451A1900870394 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A45679152644F5D100870394 /* CollectionView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CollectionView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45679192644F5D100870394 /* CollectionView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView_SampleUITests.swift; sourceTree = "<group>"; };
 		A456791B2644F5D100870394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A456792A26451A1900870394 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A456792B26451A1900870394 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				A45678F72644F5CF00870394 /* AppDelegate.swift */,
 				A45678F92644F5CF00870394 /* SceneDelegate.swift */,
 				A45678FB2644F5CF00870394 /* ViewController.swift */,
+				A456792A26451A1900870394 /* CollectionViewCell.swift */,
+				A456792B26451A1900870394 /* CollectionViewCell.xib */,
 				A45678FD2644F5CF00870394 /* Main.storyboard */,
 				A45679002644F5D000870394 /* Assets.xcassets */,
 				A45679022644F5D000870394 /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			files = (
 				A45679042644F5D000870394 /* LaunchScreen.storyboard in Resources */,
 				A45679012644F5D000870394 /* Assets.xcassets in Resources */,
+				A456792D26451A1900870394 /* CollectionViewCell.xib in Resources */,
 				A45678FF2644F5CF00870394 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				A45678FC2644F5CF00870394 /* ViewController.swift in Sources */,
 				A45678F82644F5CF00870394 /* AppDelegate.swift in Sources */,
+				A456792C26451A1900870394 /* CollectionViewCell.swift in Sources */,
 				A45678FA2644F5CF00870394 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
